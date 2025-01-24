@@ -20,6 +20,6 @@ int main ()
         else
             *ptr = num;
         printf("random : %d\n",num);
-        sleep(1);
+        usleep(100000);
     }
 }
