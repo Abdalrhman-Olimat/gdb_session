@@ -2,9 +2,9 @@
 #include <time.h>
 
 // Function to perform computation
-unsigend long long compute(unsigend long long n) {
-    unsigend long long sum = 0;
-    for (unsigend long long i = 0; i < n; i++) {
+unsigned long long compute(unsigned long long n) {
+    unsigned long long sum = 0;
+    for (unsigned long long i = 0; i < n; i++) {
         sum += i * i;
     }
     return sum;
@@ -13,7 +13,7 @@ unsigend long long compute(unsigend long long n) {
 int main() {
     clock_t start, end;
     double cpu_time_used;
-    unsigend long long result;
+    unsigned long long result;
 
     // Measure time taken by compute() function
     start = clock();
